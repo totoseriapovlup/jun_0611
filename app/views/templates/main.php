@@ -18,6 +18,7 @@ use core\Router;
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="<?= Router::getUrl('index','about')?>">About</a></li>
+                <li><a href="<?= Router::getUrl('index','contacts')?>">Contacts</a></li>
                 <li><a href="<?= Router::getUrl('note','index')?>">Notes</a></li>
             </ul>
         </nav>
