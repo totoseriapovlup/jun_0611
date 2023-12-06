@@ -19,4 +19,8 @@ class Index extends Controller
     {
         $this->view->render('about');
     }
+
+    public function contacts(){
+        $this->view->render('contacts');
+    }
 }
